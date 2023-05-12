@@ -9,70 +9,71 @@ body {
 }
 
 header {
-    display: grid;
-    place-items: center;
-    padding-bottom: 0, 3rem;
-    margin: 3, 125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin: 3.125rem;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgba(105, 144, 148, 0.811);
 }
 
 nav {
     display: flex;
     justify-content: center;
-    padding: 5, 6rem;
+    padding: 5.6rem;
     width: 100%;
     margin-top: 25rem;
 }
 
 .navbar {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     padding: 0;
-    font-size: 3rem;
+    font-size: 1.8rem;
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
+    padding: 2rem;
 }
 
 .navbar li {
-    margin-right: 15rem;
-}
-
-.navbar li:last-child {
-    margin-right: 0;
+    margin-right: 1.5rem;
 }
 
 .titulo h1 {
-    background-color: rgba(250, 235, 215, 0.755);
     margin-top: 12.5rem;
     display: flex;
     justify-content: center;
-    font-size: 80px;
+    align-items: center;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgba(250, 235, 215, 0.755);
 }
 
 .titulo h2 {
-    margin-top: 200px;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 40px;
-    padding: 80px;
+    font-size: 2rem;
+    padding: 8rem;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
 
 .imagen-titulo {
-    background-color: rgba(250, 235, 215, 0.755);
     display: flex;
     justify-content: center;
-    padding: 300px;
-    margin-top: 300px;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.755);
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
 .imagen-titulo h3 {
@@ -80,21 +81,21 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 0px 0px 100px;
-    font-size: 40px;
+    padding: 0 1rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 1fr);
     font-family: 'Montserrat', sans-serif;
 }
 
 .caja1 {
     background-color: rgba(250, 235, 215, 0.755);
-    margin: 200px;
-    padding: 50px;
+    margin: 2rem;
+    padding: 2rem;
     border: 1px black solid;
     text-align: center;
     align-items: center;
@@ -103,23 +104,25 @@ nav {
 .caja1 h2 {
     width: 100%;
     color: black;
-    padding-block-end: 100px;
-    font-size: 350%;
+    padding-block-end: 2rem;
+    font-size: 3rem;
 }
 
 .caja1 p {
     color: black;
-    font-size: 170%;
+    font-size: 1.5rem;
     text-align: center;
+    padding: 2rem;
 }
 
 .caja1 ul {
-    font-size: 170%;
+    font-size: 1.5rem;
     text-align: left;
+    list-style: none;
 }
 
 .caja1 li {
-    padding: 50px;
+    padding: 2rem;
 }
 
 .span li {
@@ -128,94 +131,57 @@ nav {
 
 .container2 {
     display: grid;
-    grid-template-rows: repeat(2, 70% 30%);
+    grid-template-rows: repeat(2, 1fr);
     font-family: 'Montserrat', sans-serif;
 }
 
 .manos {
     background-color: white;
     width: 100%;
-    height: 125rem;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    text-align: center;
+}
+
+.manos h3 {
+    padding: 3rem;
 }
 
 .manos img {
     width: 100%;
-    height: 120rem;
-}
-
-.manos h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10rem;
-    font-size: 3rem;
-    color: rgb(199, 103, 68);
-}
-
-.manos p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
 
 .manos button {
-    padding: 0.8rem 1.5rem;
-    font-size: 3rem;
+    margin: 1rem;
+    padding: 0.9rem 2.5rem;
+    font-size: 1rem;
     background-color: rgb(199, 103, 68);
     color: white;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 1rem;
     cursor: pointer;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(105, 144, 148, 0.811);
+    padding: 1rem;
 }
 
 .iconos {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-evenly;
-    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconos a {
-    display: block;
-    text-align: center;
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
-.instagram-icono {
-    width: 8rem;
-    height: 8rem;
-}
-
-.facebook-icono {
-    width: 8rem;
-    height: 8rem;
-}
-
-.whatsapp-icono {
-    width: 8rem;
-    height: 8rem;
-}
-
-
-@media (max-width: 600px) {
-
-    .titulo h1 {
-        font-size: 60px;
-    }
-
-    .imagen-titulo {
-        padding: 30px;
-    }
-
-    .navbar {
-        gap: 20px;
-        font-size: 30px;
-    }
+.iconos img {
+    width: 32px;
+    height: 32px;
 }
