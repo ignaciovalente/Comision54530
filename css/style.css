@@ -1,3 +1,5 @@
+/*todas las paginas*/
+
 html {
     font-size: 10px;
 }
@@ -50,6 +52,32 @@ nav {
 .navbar li {
     margin-right: 1.5rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(105, 144, 148, 0.811);
+    padding: 1rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.iconos img {
+    width: 5rem;
+    height: 5rem;
+}
+
+/* index */
 
 .titulo h1 {
     margin-top: 12.5rem;
@@ -179,13 +207,18 @@ aside {
 }
 
 .manos h3 {
-    padding: 3rem;
+    padding: 2rem;
     font-size: 2.5rem;
 }
 
 .manos img {
     max-width: 100%;
-    height: 150rem;
+    height: 80rem;
+}
+
+.manos a {
+    text-decoration: none;
+    color: white;
 }
 
 .manos button {
@@ -199,119 +232,174 @@ aside {
     cursor: pointer;
 }
 
-footer {
-    display: flex;
+/*Pagina ¿quien soy?*/
+
+.container-quien-soy {
+    background-color: rgba(250, 235, 215, 0.717);
+    width: 100%;
+    height: auto;
+    border: 0.2rem solid black;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    margin: 10rem 0rem 10rem 0rem;
+}
+
+.image-taza img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
     justify-content: center;
     align-items: center;
-    background-color: rgba(105, 144, 148, 0.811);
-    padding: 1rem;
+    text-align: center;
 }
 
-.iconos {
-    display: flex;
+.content h2 {
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.iconos a {
-    display: inline-block;
-    margin: 0 0.5rem;
+.content p {
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.iconos img {
-    width: 5rem;
-    height: 5rem;
-}
-
-@media screen and (max-width: 575px) { 
-    .titulo h1 {
-        font-size: 2rem;
-    }
-    .navbar a {
-        font-size: 1.3rem;
-        margin: 0rem;
-    }
-    .container {
-        padding: 0rem;
-        margin: 0rem;
-    }
-
-    .titulo h2 {
-        font-size: 1.4rem;
-    }
-    .imagen-titulo h3 {
-        font-size: 1.7rem;
-    }
-    .caja1 h2{
-        font-size: 1.5rem;
-    }
-    .caja1 p {
-        font-size: 1.2rem;
-    }
-    .caja2 h2 { 
-        font-size: 1.5rem;
-    }
-    .caja2 ul {
-        font-size: 1.2rem;
-    }
-    .manos h3 {
-        font-size: 1.5rem;
-    }
-    .manos button {
-        font-size: 1.1rem;
-    }
-    .manos img {
-        height: 30rem;
-    }
-    .iconos img {
-        width: 20px;
-        height: 20px;
-    }
 
 
-@media screen and (max-width: 768px) {
-    .navbar {
-        display: inline-block;
-        padding: auto;
-    }
-    .titulo h1 {
-        font-size: 2.5rem;
-        display: flex;  
-        text-align: center;
-    }
-    .navbar a {
-        font-size: 1.6rem;
-    }
-    .titulo h2 {
-        font-size: 1.7rem;
-    }
-    .imagen-titulo h3 {
-        font-size: 2rem;
-    }
-    .caja1 h2{
-        font-size: 1.8rem;
-    }
-    .caja1 p {
-        font-size: 1.4rem;
-    }
-    .caja2 h2 { 
-        font-size: 1.8rem;
-    }
-    .caja2 ul {
-        font-size: 1.4rem;
-    }
-    .manos h3 {
-        font-size: 1.8rem;
-    }
-    .manos button {
-        font-size: 1.5rem;
-    }
+    @media screen and (max-width: 768px) {
+        .navbar {
+            display: inline-block;
+            padding: auto;
+        }
 
-    .manos img {
-        height: 30rem;
-    }
-    .iconos img {
-        width: 30px;
-        height: 30px;
-    }
+        .titulo h1 {
+            font-size: 2.5rem;
+            display: flex;
+            text-align: center;
+        }
 
+        .navbar a {
+            font-size: 1.6rem;
+        }
+
+        .titulo h2 {
+            font-size: 1.7rem;
+        }
+
+        .imagen-titulo h3 {
+            font-size: 2rem;
+        }
+
+        .caja1 h2 {
+            font-size: 1.8rem;
+        }
+
+        .caja1 p {
+            font-size: 1.4rem;
+        }
+
+        .caja2 h2 {
+            font-size: 1.8rem;
+        }
+
+        .caja2 ul {
+            font-size: 1.4rem;
+        }
+
+        .manos h3 {
+            font-size: 1.8rem;
+        }
+
+        .manos button {
+            font-size: 1.5rem;
+        }
+
+        .manos img {
+            height: 30rem;
+        }
+
+        .iconos img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .content h2 {
+            font-size: 1.7rem;
+        }
+    
+        .content p {
+            font-size: 1.3rem;
+        }
+
+        @media screen and (max-width: 575px) {
+            .titulo h1 {
+                font-size: 2rem;
+            }
+        
+            .navbar a {
+                font-size: 1.3rem;
+                margin: 0rem;
+            }
+        
+            .container {
+                padding: 0rem;
+                margin: 0rem;
+            }
+        
+            .titulo h2 {
+                font-size: 1.4rem;
+            }
+        
+            .imagen-titulo h3 {
+                font-size: 1.7rem;
+            }
+        
+            .caja1 h2 {
+                font-size: 1.5rem;
+            }
+        
+            .caja1 p {
+                font-size: 1.2rem;
+            }
+        
+            .caja2 h2 {
+                font-size: 1.5rem;
+            }
+        
+            .caja2 ul {
+                font-size: 1.2rem;
+            }
+        
+            .manos h3 {
+                font-size: 1.5rem;
+            }
+        
+            .manos button {
+                font-size: 1.1rem;
+            }
+        
+            .manos img {
+                height: 30rem;
+            }
+        
+            .iconos img {
+                width: 20px;
+                height: 20px;
+            }
+        
+            .content h2 {
+                font-size: 1.4rem;
+            }
+        
+            .content p {
+                font-size: 1rem;
+            }
