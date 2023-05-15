@@ -1,11 +1,10 @@
 html {
-    font-size: 10px; 
-    width: 100%;
+    font-size: 10px;
 }
 
 body {
     background-color: rgba(105, 144, 148, 0.811);
-    width: 100%;
+    margin: 0rem;
 }
 
 header {
@@ -15,7 +14,6 @@ header {
     padding-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(105, 144, 148, 0.811);
-    width: 100%;
 }
 
 main {
@@ -23,23 +21,22 @@ main {
 }
 
 .encabezado {
-    width: 100%;
     margin-top: 3rem;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    padding: 5.6rem;
+    padding: 1rem;
     width: 100%;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
-    padding: 0;
+    padding: 0rem;
     font-size: 2rem;
     width: 100%;
 }
@@ -72,18 +69,27 @@ nav {
     align-items: center;
     text-align: center;
     font-size: 2.5rem;
-    padding: 8rem;
+    padding: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
 
 .imagen-titulo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    width: 1371px;
-    height: 1600px;
     margin-top: 2rem;
+    width: 100%;
+}
+
+.conjunto {
+    width: 50%;
+}
+
+.conjunto img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .imagen-titulo h3 {
@@ -99,18 +105,17 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Montserrat', sans-serif;
-    padding: 3rem;
-    margin: 3rem;
+    padding: 2rem;
+    margin-top: 5rem;
     width: 100%;
 }
 
 .caja1 {
     background-color: rgba(250, 235, 215, 0.755);
-    padding: 2rem;
+    padding: 1rem;
     border: 1px black solid;
     text-align: center;
     align-items: center;
-    margin-right: 1rem;
 }
 
 .caja1 h2 {
@@ -126,13 +131,12 @@ nav {
     border: 1px black solid;
     text-align: center;
     align-items: center;
-    margin-left: 1rem;
 }
 
 .caja2 h2 {
     width: 100%;
     color: black;
-    padding-block-end: 2rem;
+    padding-block-end: 1rem;
     font-size: 2.5rem;
 }
 
@@ -140,7 +144,7 @@ nav {
     color: black;
     font-size: 1.8rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .caja2 ul {
@@ -157,16 +161,19 @@ nav {
     font-size: 2 rem;
 }
 
+aside {
+    width: 100%;
+    margin: 5rem 0rem;
+}
+
 .container2 {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
 }
 
 .manos {
     background-color: white;
-    width: 100%;
     height: auto;
     text-align: center;
 }
@@ -177,8 +184,8 @@ nav {
 }
 
 .manos img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: 150rem;
 }
 
 .manos button {
@@ -209,10 +216,95 @@ footer {
 .iconos a {
     display: inline-block;
     margin: 0 0.5rem;
-    padding-left: 10rem;
 }
 
 .iconos img {
     width: 5rem;
     height: 5rem;
 }
+
+@media screen and (max-width: 575px) { 
+    .titulo h1 {
+        font-size: 2rem;
+    }
+    .navbar a {
+        font-size: 1.3rem;
+        margin: 0rem;
+    }
+    .container {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .titulo h2 {
+        font-size: 1.4rem;
+    }
+    .imagen-titulo h3 {
+        font-size: 1.7rem;
+    }
+    .caja1 h2{
+        font-size: 1.5rem;
+    }
+    .caja1 p {
+        font-size: 1.2rem;
+    }
+    .caja2 h2 { 
+        font-size: 1.5rem;
+    }
+    .caja2 ul {
+        font-size: 1.2rem;
+    }
+    .manos h3 {
+        font-size: 1.5rem;
+    }
+    .manos button {
+        font-size: 1.1rem;
+    }
+    .iconos img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: inline-block;
+        padding: auto;
+    }
+    .titulo h1 {
+        font-size: 2.5rem;
+        display: flex;  
+        text-align: center;
+    }
+    .navbar a {
+        font-size: 1.6rem;
+    }
+    .titulo h2 {
+        font-size: 1.7rem;
+    }
+    .imagen-titulo h3 {
+        font-size: 2rem;
+    }
+    .caja1 h2{
+        font-size: 1.8rem;
+    }
+    .caja1 p {
+        font-size: 1.4rem;
+    }
+    .caja2 h2 { 
+        font-size: 1.8rem;
+    }
+    .caja2 ul {
+        font-size: 1.4rem;
+    }
+    .manos h3 {
+        font-size: 1.8rem;
+    }
+    .manos button {
+        font-size: 1.5rem;
+    }
+    .iconos img {
+        width: 30px;
+        height: 30px;
+    }
+
