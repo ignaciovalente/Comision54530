@@ -306,6 +306,10 @@ footer {
     .manos button {
         font-size: 1.5rem;
     }
+
+    .manos img {
+        height: 30rem;
+    }
     .iconos img {
         width: 30px;
         height: 30px;
