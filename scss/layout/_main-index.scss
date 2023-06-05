@@ -1,0 +1,167 @@
+/* index */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color:$color-principal;
+    margin: 0rem;
+}
+
+main {
+    width: 100%;
+}
+
+.titulo h1 {
+    margin-top: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: $color-secundario;
+    width: 100%;
+}
+
+.titulo h2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+
+.imagen-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.conjunto {
+    width: 50%;
+}
+
+.conjunto img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-titulo h3 {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+    margin: 5rem;
+    width: 90%;
+}
+
+.caja1 {
+    background-color:$color-secundario;
+    padding: 1rem;
+    border: 1px black solid;
+    text-align: center;
+    align-items: center;
+}
+
+.caja1 h2 {
+    width: 100%;
+    color: black;
+    padding-block-end: 2rem;
+    font-size: 2.5rem;
+}
+
+.caja2 {
+    background-color:$color-secundario;
+    padding: 2rem;
+    border: 1px black solid;
+    text-align: center;
+    align-items: center;
+}
+
+.caja2 h2 {
+    width: 100%;
+    color: black;
+    padding-block-end: 1rem;
+    font-size: 2.5rem;
+}
+
+.caja1 p {
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.caja2 ul {
+    font-size: 1.8rem;
+    text-align: left;
+    list-style: none;
+}
+
+.caja2 li {
+    padding: 2rem;
+}
+
+.span li {
+    font-size: 2 rem;
+}
+
+aside {
+    width: 100%;
+    margin: 5rem 0rem;
+}
+
+.container2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: "Montserrat", sans-serif;
+}
+
+.manos {
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+
+.manos h3 {
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.manos img {
+    max-width: 100%;
+    height: 80rem;
+}
+
+.manos a {
+    text-decoration: none;
+    color: white;
+}
+
+.manos button {
+    margin: 1rem;
+    padding: 0.9rem 2.5rem;
+    font-size: 2rem;
+    background-color: rgb(199, 103, 68);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}

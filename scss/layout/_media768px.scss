@@ -1,0 +1,83 @@
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: inline-block;
+        padding: auto;
+    }
+
+    .titulo h1 {
+        font-size: 2.5rem;
+        display: flex;
+        text-align: center;
+    }
+
+    .navbar a {
+        font-size: 1.6rem;
+    }
+
+    .titulo h2 {
+        font-size: 1.7rem;
+    }
+
+    .imagen-titulo h3 {
+        font-size: 2rem;
+    }
+
+    .caja1 h2 {
+        font-size: 1.8rem;
+    }
+
+    .caja1 p {
+        font-size: 1.4rem;
+    }
+
+    .caja2 h2 {
+        font-size: 1.8rem;
+    }
+
+    .caja2 ul {
+        font-size: 1.4rem;
+    }
+
+    .manos h3 {
+        font-size: 1.8rem;
+    }
+
+    .manos button {
+        font-size: 1.5rem;
+    }
+
+    .manos img {
+        height: 30rem;
+    }
+
+    .iconos img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .content h2 {
+        font-size: 1.7rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .caja1 {
+        margin-left: 2rem;
+    }
+
+    .caja2 {
+        margin-left: 2rem;
+    }
+
+    .container-formulario {
+        padding: 1rem;
+    }
+}

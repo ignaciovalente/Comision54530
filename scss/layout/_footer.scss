@@ -1,0 +1,27 @@
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-principal;
+    padding: 1rem;
+  }
+  
+  .iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconos a {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+  .iconos img {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  

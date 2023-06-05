@@ -1,0 +1,81 @@
+/*media queries*/
+
+@media screen and (max-width: 575px) {
+    .titulo h1 {
+        font-size: 2rem;
+    }
+
+    .navbar a {
+        font-size: 1.3rem;
+        margin: 0rem;
+    }
+
+    .container {
+        padding: 0rem;
+        margin: 0rem;
+        width: 70%;
+    }
+
+    .titulo h2 {
+        font-size: 1.4rem;
+    }
+
+    .imagen-titulo h3 {
+        font-size: 1.7rem;
+    }
+
+    .caja1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .caja1 p {
+        font-size: 1.2rem;
+    }
+
+    .caja2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .caja2 ul {
+        font-size: 1.2rem;
+    }
+
+    .manos h3 {
+        font-size: 1.5rem;
+    }
+
+    .manos button {
+        font-size: 1.1rem;
+    }
+
+    .manos img {
+        height: 30rem;
+    }
+
+    .iconos img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .container-tarifas {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 5rem 0rem 10rem 0rem;
+        height: auto;
+        grid-gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 6rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,33 @@
+/*media queries*/
+
+@media screen and (max-width: 1798px) {
+    .titulo-blog {
+        font-size: 2rem;
+    }
+
+    .container-blog {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat 8, 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 2rem;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2rem;
+    }
+
+    .container-tarifas {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 7rem 0rem 15rem 0rem;
+        height: auto;
+        grid-gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 10rem;
+        font-size: 2rem;
+    }
+}
