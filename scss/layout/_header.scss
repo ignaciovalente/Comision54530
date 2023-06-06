@@ -1,39 +1,39 @@
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
-    font-family: "Montserrat", sans-serif;
-    background-color: $color-principal;
-}
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+        font-family:$font-principal;
+        background-color: $color-principal;
+    }
 
-.encabezado {
-    margin-top: 3rem;
-}
+    .encabezado {
+        margin-top: 3rem;
+    }
 
-nav {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    width: 100%;
-}
+    nav {
+        display: flex;  
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0rem;
-    font-size: 2rem;
-    width: 100%;
-}
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0rem;
+        font-size: 2rem;
+        width: 100%;
 
-.navbar a {
-    text-decoration: none;
-    color: white;
-    padding: 2rem;
-}
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 2rem;
+    }
 
-.navbar li {
-    margin-right: 1.5rem;
+    li {
+        margin-right: 1.5rem;
+    }
 }

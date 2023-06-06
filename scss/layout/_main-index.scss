@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color:$color-principal;
+    background-color: $color-principal;
     margin: 0rem;
 }
 
@@ -19,7 +19,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 5rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-principal;
     background-color: $color-secundario;
     width: 100%;
 }
@@ -32,7 +32,7 @@ main {
     text-align: center;
     font-size: 2.5rem;
     padding: 2rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-principal;
     color: #ffffff;
 }
 
@@ -46,18 +46,18 @@ main {
 
 .conjunto {
     width: 50%;
-}
 
-.conjunto img {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
+    img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .imagen-titulo h3 {
     padding: 2rem;
     font-size: 2.5rem;
-    font-family: "Montserrat", sans-serif;
+    font-family:$font-principal;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -66,57 +66,57 @@ main {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-family: "Montserrat", sans-serif;
+    font-family:$font-principal;
     padding: 2rem;
     margin: 5rem;
     width: 90%;
 }
 
 .caja1 {
-    background-color:$color-secundario;
-    padding: 1rem;
-    border: 1px black solid;
-    text-align: center;
-    align-items: center;
-}
+        background-color: $color-secundario;
+        padding: 1rem;
+        border: 1px black solid;
+        text-align: center;
+        align-items: center;
 
-.caja1 h2 {
-    width: 100%;
-    color: black;
-    padding-block-end: 2rem;
-    font-size: 2.5rem;
+    h2 {
+        width: 100%;
+        color: black;
+        padding-block-end: 2rem;
+        font-size: 2.5rem;
+    }
+
+    p {
+        color: black;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 1rem;
+    }
 }
 
 .caja2 {
-    background-color:$color-secundario;
-    padding: 2rem;
-    border: 1px black solid;
-    text-align: center;
-    align-items: center;
-}
+        background-color: $color-secundario;
+        padding: 2rem;
+        border: 1px black solid;
+        text-align: center;
+        align-items: center;
 
-.caja2 h2 {
-    width: 100%;
-    color: black;
-    padding-block-end: 1rem;
-    font-size: 2.5rem;
-}
+    h2 {
+        width: 100%;
+        color: black;
+        padding-block-end: 1rem;
+        font-size: 2.5rem;
+    }
 
-.caja1 p {
-    color: black;
-    font-size: 1.8rem;
-    text-align: center;
-    padding: 1rem;
-}
+    ul {
+        font-size: 1.8rem;
+        text-align: left;
+        list-style: none;
+    }
 
-.caja2 ul {
-    font-size: 1.8rem;
-    text-align: left;
-    list-style: none;
-}
-
-.caja2 li {
-    padding: 2rem;
+    li {
+        padding: 2rem;
+    }
 }
 
 .span li {
@@ -131,37 +131,34 @@ aside {
 .container2 {
     display: grid;
     grid-template-rows: 1fr;
-    font-family: "Montserrat", sans-serif;
+    font-family:$font-principal;
 }
 
 .manos {
-    background-color: white;
-    height: auto;
-    text-align: center;
-}
+        background-color: white;
+        height: auto;
+        text-align: center;
 
-.manos h3 {
-    padding: 2rem;
-    font-size: 2.5rem;
-}
-
-.manos img {
-    max-width: 100%;
-    height: 80rem;
-}
-
-.manos a {
-    text-decoration: none;
-    color: white;
-}
-
-.manos button {
-    margin: 1rem;
-    padding: 0.9rem 2.5rem;
-    font-size: 2rem;
-    background-color: rgb(199, 103, 68);
-    color: white;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
+    h3 {
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+    img {
+        max-width: 100%;
+        height: 80rem;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    button {
+        margin: 1rem;
+        padding: 0.9rem 2.5rem;
+        font-size: 2rem;
+        background-color: rgb(199, 103, 68);
+        color: white;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
 }

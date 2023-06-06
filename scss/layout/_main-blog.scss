@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-principal;
     color: white;
 }
 
@@ -19,10 +19,11 @@
     align-items: center;
     text-align: center;
     grid-gap: 2rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-principal;
     font-size: 2.5rem;
+
+    img {
+        max-width: 60%;
+    }
 }
 
-.container-blog img {
-    max-width: 60%;
-}
