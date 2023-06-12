@@ -1,7 +1,5 @@
     header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex;
         padding-bottom: 2rem;
         font-family:$font-principal;
         background-color: $color-principal;
@@ -19,9 +17,7 @@
     }
 
     .navbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex;
         list-style: none;
         padding: 0rem;
         font-size: 2rem;
