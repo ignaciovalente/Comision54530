@@ -246,18 +246,20 @@ aside {
 /*Pagina ¿quien soy?*/
 .container-quien-soy {
   background-color: rgba(250, 235, 215, 0.755);
-  width: 100%;
+  width: auto;
   height: auto;
-  border: 0.2rem solid black;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: 30% 70%;
   align-items: center;
-  margin: 10rem 0rem 10rem 0rem;
+  margin: 5rem 10rem 5rem 10rem;
 }
 
 .image-taza img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
+  padding-left: 3rem;
 }
 
 .content {
@@ -269,7 +271,7 @@ aside {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: "Montserrat", sans-serif;
 }
 .content p {
@@ -277,8 +279,8 @@ aside {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /*pagina blog*/
@@ -332,63 +334,73 @@ aside {
 .cajat1, .cajat2 {
   padding: 2rem;
   background-color: antiquewhite;
-  border: 0.2rem solid black;
   font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
 }
 .cajat1 h2, .cajat2 h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  padding: 1rem;
 }
 .cajat1 h4, .cajat2 h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem;
 }
 .cajat1 li, .cajat2 li {
   text-align: left;
   font-size: 1.5rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem;
 }
 
 .cajat3 {
-  padding: 2rem;
   background-color: antiquewhite;
-  border: 0.2rem solid black;
+  border-radius: 5px solid black;
   font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  padding: 1rem;
 }
 .cajat3 h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  padding: 1rem;
 }
 .cajat3 h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem;
 }
 .cajat3 p {
   text-align: left;
   font-size: 1.5rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem;
 }
 
 /*pagina contacto*/
 .container-formulario {
   background-color: rgba(250, 235, 215, 0.755);
-  border: 0.2rem solid black;
+  border-radius: 10px;
   width: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 15rem;
+  padding: 3rem;
+  margin: 5rem;
   height: auto;
 }
 .container-formulario h3 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-family: "Montserrat", sans-serif;
+  padding: 50px;
 }
 
 .cajad1,
 ::placeholder {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
 
 /*media queries*/
@@ -454,6 +466,36 @@ aside {
     text-align: left;
     padding: 6rem;
     font-size: 1.5rem;
+  }
+  .cajat1 h2, .cajat2 h2 {
+    font-size: 2rem;
+  }
+  .cajat1 h4, .cajat2 h4 {
+    font-size: 1.5rem;
+  }
+  .cajat2 h2 {
+    font-size: 2rem;
+  }
+  .cajat2 h4 {
+    font-size: 1.5rem;
+  }
+  .cajat3 h2 {
+    font-size: 2rem;
+  }
+  .cajat3 h4 {
+    font-size: 1.5rem;
+  }
+  .container-quien-soy h2 {
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+  .container-quien-soy p {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .image-taza img {
+    width: 100%;
+    height: auto;
   }
 }
 /*media queries*/
@@ -522,6 +564,19 @@ aside {
   .container-formulario h3 {
     font-size: 18px;
   }
+  .container-quien-soy h2 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .container-quien-soy p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .image-taza img {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  }
 }
 /*media queries*/
 @media screen and (max-width: 1798px) {
@@ -551,6 +606,9 @@ aside {
     text-align: left;
     padding: 10rem;
     font-size: 2rem;
+  }
+  .container-quien-soy h2 {
+    padding: 50px;
   }
 }
 

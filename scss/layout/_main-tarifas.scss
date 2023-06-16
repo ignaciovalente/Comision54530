@@ -15,23 +15,26 @@
 .cajat1 {
         padding: 2rem;
         background-color: antiquewhite;
-        border: 0.2rem solid black;
         font-family: $font-principal;
+        border-radius: 10px;
 
     h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding: 1rem;
     }
 
     h4 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: left;
         font-family: $font-secundaria;
+        padding: 1rem;
     }
 
     li {
         text-align: left;
         font-size: 1.5rem;
         font-family:$font-secundaria;
+        padding: 1rem
     }
 }
 
@@ -40,23 +43,27 @@
 }
 
 .cajat3 {
-        padding: 2rem;
         background-color: antiquewhite;
-        border: 0.2rem solid black;
+        border-radius: 5px solid black;
         font-family:$font-principal;
+        border-radius: 10px;
+        padding: 1rem;
         
         h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding: 1rem;
         }
     
         h4 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: left;
         font-family: $font-secundaria;
+        padding: 1rem;
         }
         p {
         text-align: left;
         font-size: 1.5rem;
         font-family:$font-secundaria;
+        padding: 1rem;
         }
 }
