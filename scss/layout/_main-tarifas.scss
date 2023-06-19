@@ -3,18 +3,17 @@
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(3, 1fr);
-        margin: 5rem 0rem 20rem 0rem;
         height: auto;
         grid-gap: 7rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 20rem;
+        padding: 10rem;
 }
 
 .cajat1 {
         padding: 2rem;
-        background-color: antiquewhite;
+        background-color: $color-secundario;
         font-family: $font-principal;
         border-radius: 10px;
 
@@ -43,7 +42,7 @@
 }
 
 .cajat3 {
-        background-color: antiquewhite;
+        background-color: $color-secundario;
         border-radius: 5px solid black;
         font-family:$font-principal;
         border-radius: 10px;
@@ -60,6 +59,7 @@
         font-family: $font-secundaria;
         padding: 1rem;
         }
+
         p {
         text-align: left;
         font-size: 1.5rem;

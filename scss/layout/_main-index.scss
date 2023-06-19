@@ -66,6 +66,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
     font-family:$font-principal;
     padding: 2rem;
     margin: 5rem;
@@ -75,14 +76,14 @@ main {
 .caja1 {
         background-color: $color-secundario;
         padding: 1rem;
-        border: 1px black solid;
+        border-radius: 5rem;
         text-align: center;
         align-items: center;
 
     h2 {
         width: 100%;
         color: black;
-        padding-block-end: 2rem;
+        padding-block-end: 6rem;
         font-size: 2.5rem;
     }
 
@@ -97,7 +98,7 @@ main {
 .caja2 {
         background-color: $color-secundario;
         padding: 2rem;
-        border: 1px black solid;
+        border-radius: 5rem;
         text-align: center;
         align-items: center;
 
